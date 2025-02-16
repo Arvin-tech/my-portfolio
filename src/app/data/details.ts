@@ -13,14 +13,14 @@ export const personalDetails = {
 
 export const workDetails = [
   {
-    position: "Software Tester",
+    position: "Software Quality Analyst / Developer",
     company: "KODA Kollectiv Inc.",
     location: "Mandaue",
     type: "Full Time",
     duration: "Aug 2023 - Present",
   },
   {
-    position: "Intern",
+    position: "QA Intern",
     company: "KODA Kollectiv Inc.",
     location: "Mandaue",
     type: "Internship",
