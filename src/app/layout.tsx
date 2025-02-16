@@ -30,7 +30,7 @@ export default function RootLayout({
         <nav className="bg-gray-800 text-white p-4">
           <div className="max-w-4xl mx-auto flex justify-between">
             <Link href="/" className="text-lg font-bold">
-              Arvs Koda
+              Arvs
             </Link>
             <div className="space-x-10">
               <Link href="/" className="space-x-10 hover:text-green-300">Home</Link>
