@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My QA Portfolio",
+  title: "Arvs Portfolio",
   description: "Showcasing my software testing skills and experience",
 };
 
