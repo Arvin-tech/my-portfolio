@@ -10,9 +10,9 @@ export const projectDetails = [
     {
       title: "Past Zero",
       image: "/images/pastzero.png",
-      description: "Light Awake is a mobile app that gradually wakes you up using gentle light.",
+      description: "Past Zero is an app that assists with remembering and recalling people that you meet.",
       techstack: ["Flutter", "Firebase"],
-      previewLink: "https://lightawake.biz/",
+      previewLink: "https://pastzero.com/",
       githubLink: "https://github.com/yourusername/qatest",
     },
     {
@@ -32,7 +32,7 @@ export const projectDetails = [
       githubLink: "https://github.com/yourusername/qatest",
     },
     {
-      title: "Squillio",
+      title: "Sqilleo",
       image: "/images/sqilleo.png",
       description: "Sqilleo is an interactive e-learning platform that helps users develop skills through engaging courses and real-world applications.",
       techstack: ["Next.js", "Cypress", "Postman"],

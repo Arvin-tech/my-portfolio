@@ -4,7 +4,7 @@ export const personalDetails = {
     email: "johndoe@example.com",
     phone: "+1 234 567 890",
     location: "New York, USA",
-    bio: "I'm a passionate QA Engineer with experience in automated and manual testing, ensuring software quality and performance.",
+    bio: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
     linkedin: "https://linkedin.com/in/johndoe",
     github: "https://github.com/johndoe",
     portfolio: "https://johndoe.dev",
