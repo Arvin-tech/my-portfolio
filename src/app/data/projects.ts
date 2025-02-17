@@ -8,6 +8,14 @@ export const projectDetails = [
       githubLink: "https://github.com/martinezcristy/CrediSyncML",
     },
     {
+      title: "Past Zero",
+      image: "/images/pastzero.png",
+      description: "Light Awake is a mobile app that gradually wakes you up using gentle light.",
+      techstack: ["Flutter", "Firebase"],
+      previewLink: "https://lightawake.biz/",
+      githubLink: "https://github.com/yourusername/qatest",
+    },
+    {
       title: "Fourfield Pond",
       image: "/images/resortnavigator.webp",
       description: "Easily access resort, activity listings, map, rules, contacts, and receive push notifications for important updates.",
@@ -34,14 +42,6 @@ export const projectDetails = [
     {
       title: "Light Awake",
       image: "/images/light.png",
-      description: "Light Awake is a mobile app that gradually wakes you up using gentle light.",
-      techstack: ["Flutter", "Firebase"],
-      previewLink: "https://lightawake.biz/",
-      githubLink: "https://github.com/yourusername/qatest",
-    },
-    {
-      title: "Past Zero",
-      image: "/images/pastzero.png",
       description: "Light Awake is a mobile app that gradually wakes you up using gentle light.",
       techstack: ["Flutter", "Firebase"],
       previewLink: "https://lightawake.biz/",

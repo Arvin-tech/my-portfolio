@@ -3,22 +3,77 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global Variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Light background */
+  --foreground: #171717; /* Light foreground (text color) */
+  --light-heading: #171717; /* Light mode heading color */
+  --dark-heading: #ededed; /* Dark mode heading color */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --background: #0a0a0a; */
-    --background: #191919;
-    --foreground: #ededed;
+    --background: #ededed; /* Dark background */
+    --foreground: #191919; /* Dark foreground (text color) */
+    --light-heading: #ededed; /* Dark mode heading color */
+    --dark-heading: #171717; /* Light mode heading color */
   }
 }
 
+/* Global Styles */
 body {
   color: var(--foreground);
   background: var(--background);
-  /* font-family: Arial, Helvetica, sans-serif; */
   font-family: "Poppins", sans-serif;
+}
+
+/* Apply dynamic color to paragraphs */
+.paragraph-color {
+  color: var(--paragraph-light); /* Default to light mode text color */
+}
+
+/* When in dark mode */
+.dark .paragraph-color {
+  color: var(--paragraph-dark); /* Change color in dark mode */
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--background); /* Card body color */
+  color: var(--foreground); /* Text color for body */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Hover effect */
+}
+
+/* Title & Description Styling */
+.card h2 {
+  color: var(--foreground); /* Title text color */
+}
+
+.card p {
+  color: var(--foreground); /* Description text color */
+}
+
+.card p.text-gray-600 {
+  color: var(--foreground); /* Adjust text color for specific description styling */
+}
+
+.card p.text-gray-600.dark\:text-gray-300 {
+  color: var(--foreground); /* Keep the description color consistent in both modes */
+}
+
+/* Links Styling */
+.card a {
+  color: #0070f3; /* Link color */
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
