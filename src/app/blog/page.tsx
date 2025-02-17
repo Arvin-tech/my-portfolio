@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Blog = () => {
-  // Temporary blog post data
   const posts = [
     {
       id: 1,
@@ -24,15 +23,23 @@ const Blog = () => {
   ];
 
   return (
-    <div className="blog-container">
-      <h1>My Blog</h1>
-      <div className="post-list">
+    <div className="max-w-4xl mx-auto p-6">
+      <h1 className="text-3xl font-bold text-center text-black mb-6">
+        My Blog
+      </h1>
+      <div className="grid gap-6">
         {posts.map((post) => (
-          <div key={post.id} className="post-card">
-            <h2>{post.title}</h2>
-            <p>{post.excerpt}</p>
-            <small>Posted on: {post.date}</small>
-            <hr />
+          <div
+            key={post.id}
+            className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 transition-transform transform hover:scale-105"
+          >
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-200 mb-2">
+              {post.title}
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 mb-4">{post.excerpt}</p>
+            <small className="text-gray-500 dark:text-gray-400">
+              📅 {post.date}
+            </small>
           </div>
         ))}
       </div>
