@@ -13,7 +13,7 @@ export const personalDetails = {
 
 export const workDetails = [
   {
-    position: "Software Quality Analyst / Developer",
+    position: "Software Quality Analyst",
     company: "KODA Kollectiv Inc.",
     location: "Mandaue",
     type: "Full Time",

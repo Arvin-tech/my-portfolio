@@ -39,6 +39,14 @@ export const projectDetails = [
       previewLink: "https://lightawake.biz/",
       githubLink: "https://github.com/yourusername/qatest",
     },
+    {
+      title: "Past Zero",
+      image: "/images/pastzero.png",
+      description: "Light Awake is a mobile app that gradually wakes you up using gentle light.",
+      techstack: ["Flutter", "Firebase"],
+      previewLink: "https://lightawake.biz/",
+      githubLink: "https://github.com/yourusername/qatest",
+    },
 
   ];
   

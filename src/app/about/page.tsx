@@ -11,15 +11,15 @@ export default function AboutPage() {
         <h1 className="text-xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-snug font-bold">
           About Me
         </h1>
-        <p className="text-content py-8 lg:max-w-3xl">{personalDetails.role}</p>
+        <p className="text-content py-8 lg:max-w-3xl">{personalDetails.bio}</p>
         </section>
 
         <br />
 
         <section>
-          <h1 className="text-xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
-            Work Experience
-          </h1>
+        <h1 className="text-xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-snug font-bold">
+          Work Experience
+        </h1>
           {React.Children.toArray(
             workDetails.map(({ position, company, location, type, duration }) => (
               <Work
@@ -33,12 +33,12 @@ export default function AboutPage() {
           )}
         </section>
 
-        <br />
+        <br /> <br />
 
         <section>
-          <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-            Education
-          </h1>
+        <h1 className="text-xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-snug font-bold">
+          Education
+        </h1>
           {React.Children.toArray(
           educationDetails.map(({ course, school, location, duration }) => (
             <Studies
