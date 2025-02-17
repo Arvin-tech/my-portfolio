@@ -16,11 +16,11 @@ export const workDetails = [
     position: "Software Quality Analyst",
     company: "KODA Kollectiv Inc.",
     location: "Mandaue",
-    type: "Full Time",
+    type: "Regular",
     duration: "Aug 2023 - Present",
   },
   {
-    position: "QA Intern",
+    position: "Software QA Intern",
     company: "KODA Kollectiv Inc.",
     location: "Mandaue",
     type: "Internship",
@@ -32,6 +32,13 @@ export const workDetails = [
     location: "Cebu",
     type: "Internship",
     duration: "Oct 2018 - Dec 2018",
+  },
+  {
+    position: "Sales Assistant",
+    company: "TFE Sales Marketing Corporation",
+    location: "Cebu",
+    type: "Contractual",
+    duration: "May 2018 - June 2018",
   },
 ];
 
