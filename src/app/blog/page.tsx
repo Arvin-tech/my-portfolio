@@ -1,50 +1,66 @@
-import React from 'react';
+'use client';
 
-const Blog = () => {
-  const posts = [
-    {
-      id: 1,
-      title: 'Welcome to My Blog!',
-      excerpt: 'This is the first post on my new blog. Stay tuned for more content!',
-      date: 'February 17, 2025',
-    },
-    {
-      id: 2,
-      title: 'How to Build a React App',
-      excerpt: 'In this post, we will walk through how to build a simple React app from scratch.',
-      date: 'February 18, 2025',
-    },
-    {
-      id: 3,
-      title: 'Understanding TypeScript',
-      excerpt: 'A beginner’s guide to understanding the basics of TypeScript and how it improves your JavaScript code.',
-      date: 'February 19, 2025',
-    },
-  ];
+import Image from 'next/image';
 
+const posts = [
+  {
+    id: 1,
+    title: 'Welcome to My Blog!',
+    excerpt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.',
+    date: 'February 17, 2025',
+    photoUrl: '/images/blog.jpg',
+  },
+  {
+    id: 2,
+    title: 'A Place to Unwind',
+    excerpt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.',
+    date: 'February 18, 2025',
+    photoUrl: '/images/itparkcebu.jpg',
+  },
+  {
+    id: 3,
+    title: 'Life in My Twenties',
+    excerpt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.',
+    date: 'February 19, 2025',
+    photoUrl: '/images/work.jpg',
+  },
+  {
+    id: 4,
+    title: 'Work-Life Balance',
+    excerpt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.',
+    date: 'February 19, 2025',
+    photoUrl: '/images/outdoors.jpg',
+  },
+
+];
+
+export default function BlogPage() {
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center text-black mb-6">
-        My Blog
+    <div className="container mx-auto p-6">
+      <h1 className="text-xl text-black md:text-2xl xl:text-3xl xl:leading-snug font-bold">
+            My Blog
       </h1>
-      <div className="grid gap-6">
+      <p className="text-content py-8 lg:max-w-3xl">This is a space where I share my experiences and insights on life, work, and finding balance. Whether it's discovering a peaceful spot to unwind, navigating life in my twenties, or exploring the art of maintaining work-life harmony, you'll find stories and reflections to inspire and recharge.</p>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {posts.map((post) => (
-          <div
-            key={post.id}
-            className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 transition-transform transform hover:scale-105"
-          >
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-200 mb-2">
-              {post.title}
-            </h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">{post.excerpt}</p>
-            <small className="text-gray-500 dark:text-gray-400">
-              📅 {post.date}
-            </small>
+          <div key={post.id} className="max-w-[400px] w-full mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+            <Image
+              src={post.photoUrl}
+              alt={post.title}
+              width={500}
+              height={300}
+              className="w-full h-56 object-cover"
+            />
+            <div className="p-4">
+              <p className="text-sm text-purple-600 mb-2">{post.date} | Post</p>
+              <h3 className="text-lg font-semibold mb-2">{post.title}</h3>
+              <p className="text-gray-600 mb-4">{post.excerpt}</p>
+              <a href="#" className="text-purple-600 font-semibold">Read More</a>
+            </div>
           </div>
         ))}
       </div>
     </div>
   );
-};
-
-export default Blog;
+}

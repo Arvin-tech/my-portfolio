@@ -17,7 +17,7 @@ export const projectDetails = [
     },
     {
       title: "Fourfield Pond",
-      image: "/images/resortnavigator.webp",
+      image: "/images/fourfieldpond.png",
       description: "Easily access resort, activity listings, map, rules, contacts, and receive push notifications for important updates.",
       techstack: ["Flutter", "Firebase"],
       previewLink: "https://qatest.example.com",
@@ -25,7 +25,7 @@ export const projectDetails = [
     },
     {
       title: "The DocSites",
-      image: "/images/docsites.jpg",
+      image: "/images/thedocsites.png",
       description: "TheDocSites offers The Best Affordable Website Templates for Dentists and Physicians. I developed custom website templates for dental and medical clients",
       techstack: ["PHP", "HTML", "CSS", "JavaScript"],
       previewLink: "https://www.docsites.com/",
@@ -41,7 +41,7 @@ export const projectDetails = [
     },
     {
       title: "Light Awake",
-      image: "/images/light.png",
+      image: "/images/lightawake.png",
       description: "Light Awake is a mobile app that gradually wakes you up using gentle light.",
       techstack: ["Flutter", "Firebase"],
       previewLink: "https://lightawake.biz/",
