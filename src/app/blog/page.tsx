@@ -45,7 +45,7 @@ export default function BlogPage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {posts.map((post) => (
-          <div key={post.id} className="max-w-[450px] w-full mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+          <div key={post.id} className="blogcard max-w-[450px] w-full mx-auto bg-white shadow-md rounded-lg transition-transform transform hover:scale-105">
             <Image
               src={post.photoUrl}
               alt={post.title}
