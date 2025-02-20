@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface StudiesProps {
   course: string;
@@ -22,9 +23,12 @@ const Studies: React.FC<StudiesProps> = ({ course, school, location, duration, w
       <div className="flex justify-between pt-2">
         <div className="flex flex-col md:flex-row">
           <div className="flex items-center pr-5">
-            <img 
-                src={schoolLogos[school] || "/images/default_logo.png"} 
-                alt={`${school} Logo`} 
+            <Image 
+                // src={schoolLogos[school] || "/images/default_logo.png" } 
+                src={schoolLogos[school] || "/images/default_logo.png" } 
+                alt={`${school} Logo`}
+                width={24}
+                height={24} 
                 className="w-4 h-4 md:w-6 md:h-6 object-contain rounded-lg"
               />
             {/* <p className="text-content text-xs md:text-sm font-light pl-1">{school}</p> */}
