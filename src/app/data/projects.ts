@@ -1,7 +1,7 @@
 export const projectDetails = [
     {
       title: "CrediSync - Capstone Project",
-      image: "/images/credisynclogo.png", // Store images in public/images
+      image: "/images/projects/credisync.png", // Store images in public/images
       description: "A machine learning-based loan eligibility assessment platform.",
       techstack: ["Flask", "Python", "MySQL", "Postman"],
       previewLink: "https://credysync.example.com",
@@ -9,7 +9,7 @@ export const projectDetails = [
     },
     {
       title: "Past Zero",
-      image: "/images/pastzero.png",
+      image: "/images/projects/pastzero.png",
       description: "Past Zero is an app that assists with remembering and recalling people that you meet.",
       techstack: ["Flutter", "Firebase"],
       previewLink: "https://pastzero.com/",
@@ -17,7 +17,7 @@ export const projectDetails = [
     },
     {
       title: "Fourfield Pond",
-      image: "/images/fourfieldpond.png",
+      image: "/images/projects/fourfieldpond.png",
       description: "Easily access resort, activity listings, map, rules, contacts, and receive push notifications for important updates.",
       techstack: ["Flutter", "Firebase"],
       previewLink: "https://qatest.example.com",
@@ -25,7 +25,7 @@ export const projectDetails = [
     },
     {
       title: "The DocSites",
-      image: "/images/thedocsites.png",
+      image: "/images/projects/thedocsites.png",
       description: "TheDocSites offers The Best Affordable Website Templates for Dentists and Physicians. I developed custom website templates for dental and medical clients",
       techstack: ["PHP", "HTML", "CSS", "JavaScript"],
       previewLink: "https://www.docsites.com/",
@@ -33,7 +33,7 @@ export const projectDetails = [
     },
     {
       title: "Sqilleo",
-      image: "/images/sqilleo.png",
+      image: "/images/projects/sqilleo.png",
       description: "Sqilleo is an interactive e-learning platform that helps users develop skills through engaging courses and real-world applications.",
       techstack: ["Next.js", "Cypress", "Postman"],
       previewLink: "https://www.sqilleo.com/home",
@@ -41,7 +41,7 @@ export const projectDetails = [
     },
     {
       title: "Light Awake",
-      image: "/images/lightawake.png",
+      image: "/images/projects/lightawake.png",
       description: "Light Awake is a mobile app that gradually wakes you up using gentle light.",
       techstack: ["Flutter", "Firebase"],
       previewLink: "https://lightawake.biz/",

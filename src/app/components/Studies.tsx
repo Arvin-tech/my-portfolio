@@ -10,8 +10,8 @@ interface StudiesProps {
 }
 
 const schoolLogos: { [key: string]: string } = {
-  "University of Cebu": "/images/uc-logo.png",
-  "Banilad Night High School": "/images/talambantimessquare_logo.png", 
+  "University of Cebu": "/images/logos/uc-logo.png",
+  "Banilad Night High School": "/images/logos/talambantimessquare_logo.png", 
 };
 
 const Studies: React.FC<StudiesProps> = ({ course, school, location, duration, website }) => {

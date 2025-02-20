@@ -10,9 +10,9 @@ interface WorkProps {
 }
 
 const companyLogos: { [key: string]: string } = {
-  "KODA Kollectiv Inc.": "/images/kodakollectiv_logo.png",
-  "Talamban Times Square": "/images/talambantimessquare_logo.png",
-  "TFE Sales Marketing Corporation": "/images/tfe.png",
+  "KODA Kollectiv Inc.": "/images/logos/kodakollectiv_logo.png",
+  "Talamban Times Square": "/images/logos/talambantimessquare_logo.png",
+  "TFE Sales Marketing Corporation": "/images/logos/tfe.png",
 };
 
 const Work: React.FC<WorkProps> = ({ position, company, location, type, duration }) => {

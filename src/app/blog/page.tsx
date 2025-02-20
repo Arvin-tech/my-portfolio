@@ -9,29 +9,30 @@ const posts = [
     title: "Welcome to My Blog!",
     excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
     date: "February 17, 2025",
-    photoUrl: "/images/blog.jpg",
+    photoUrl: "/images/blog_thumbnails/blog.jpg",
   },
   {
     id: 2,
-    title: "A Place to Unwind",
-    excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
-    date: "February 18, 2025",
-    photoUrl: "/images/itparkcebu.jpg",
-  },
-  {
-    id: 3,
-    title: "Life in My Twenties",
-    excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
-    date: "February 19, 2025",
-    photoUrl: "/images/work.jpg",
-  },
-  {
-    id: 4,
     title: "Work-Life Balance",
     excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
     date: "February 19, 2025",
-    photoUrl: "/images/outdoors.jpg",
+    photoUrl: "/images/blog_thumbnails/outdoors.jpg",
   },
+  {
+    id: 3,
+    title: "A Place to Unwind",
+    excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
+    date: "February 18, 2025",
+    photoUrl: "/images/blog_thumbnails/itparkcebu.jpg",
+  },
+  {
+    id: 4,
+    title: "Life in My Twenties",
+    excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
+    date: "February 19, 2025",
+    photoUrl: "/images/blog_thumbnails/work.jpg",
+  },
+ 
 ];
 
 export default function BlogPage() {
