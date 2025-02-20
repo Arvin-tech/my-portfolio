@@ -14,7 +14,7 @@ const posts = [
     title: "Welcome to My Blog!",
     content: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
     date: "February 17, 2025",
-    photoUrl: ["/images/blog.jpg", "/images/latabanhike.jpg"],
+    photoUrl: ["/images/blog_thumbnails/blog.jpg", "/images/blog_thumbnails/blog.jpg"],
   },
   {
     id: "2",
@@ -25,21 +25,37 @@ const posts = [
         "This is the third paragraph, which will only appear if it exists in the content array."
     ],
     date: "February 19, 2025",
-    photoUrl: ["/images/outdoors/kanirag.jpg", "/images/outdoors/latabanhike.jpg"],
+    photoUrl: [
+      "/images/work/koda-samgyup.jpg",
+      "/images/work/koda-somac.jpg",
+      "/images/outdoors/kanirag-group.jpg",
+      "/images/work/koda-xmas.jpg"
+    ],
   },
   {
     id: "3",
-    title: "A Place to Unwind",
+    title: "Outdoor Life",
     content: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
     date: "February 18, 2025",
-    photoUrl: ["/images/itparkcebu.jpg", "/images/latabanhike.jpg"],
+    photoUrl: [
+      "/images/outdoors/kanirag.jpg", 
+      "/images/outdoors/kaniraghike.jpg", 
+      "/images/outdoors/spartanhike.jpg",
+      "/images/outdoors/latabanhike.jpg", 
+      
+    ],
   },
   {
     id: "4",
     title: "Life in My Twenties",
     content: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
     date: "February 19, 2025",
-    photoUrl: ["/images/work.jpg", "/images/blog.jpg"],
+    photoUrl: [
+      "/images/friends/team_dinner.jpg",
+      "/images/friends/halloween.jpg", 
+      "/images/friends/angels_pizza.jpg",
+      "/images/friends/boys_pizza.jpg"
+    ],
   },
 
 ];

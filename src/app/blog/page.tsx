@@ -16,21 +16,21 @@ const posts = [
     title: "Work-Life Balance",
     excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
     date: "February 19, 2025",
-    photoUrl: "/images/blog_thumbnails/outdoors.jpg",
+    photoUrl: "/images/work/koda-samgyup.jpg",
   },
   {
     id: 3,
-    title: "A Place to Unwind",
+    title: "Outdoor Life",
     excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
     date: "February 18, 2025",
-    photoUrl: "/images/blog_thumbnails/itparkcebu.jpg",
+    photoUrl: "/images/outdoors/solo.jpg",
   },
   {
     id: 4,
     title: "Life in My Twenties",
     excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
     date: "February 19, 2025",
-    photoUrl: "/images/blog_thumbnails/work.jpg",
+    photoUrl: "/images/friends/angels_pizza.jpg",
   },
  
 ];
