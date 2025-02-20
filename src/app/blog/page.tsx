@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from "next/link";
 
 const posts = [
   {
@@ -57,7 +58,9 @@ export default function BlogPage() {
               <p className="text-sm text-purple-600 mb-2">{post.date} | Post</p>
               <h3 className="text-lg font-semibold mb-2">{post.title}</h3>
               <p className="text-gray-600 mb-4">{post.excerpt}</p>
-              <a href="#" className="text-purple-600 font-semibold">Read More</a>
+              <Link href={`/blog/${post.id}`} className="text-purple-600 font-semibold hover:underline">
+                Read More
+              </Link>
             </div>
           </div>
         ))}
