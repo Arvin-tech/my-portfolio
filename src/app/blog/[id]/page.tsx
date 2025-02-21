@@ -70,6 +70,7 @@ export default function BlogPostPage() {
 
   return (
     <div className="container mx-auto">
+      <br /><br /><br />
       {/* Image Carousel */}
       <Swiper
           modules={[Autoplay, Pagination]}
