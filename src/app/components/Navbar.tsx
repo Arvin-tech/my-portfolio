@@ -1,35 +1,46 @@
-"use client"; // This ensures the navbar can use useState
-
-import { useState } from "react";
+"use client";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  return (
-    <nav className="bg-gray-800 text-white p-4">
-      <div className="max-w-4xl mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <Link href="/" className="text-lg font-bold">
-          Arvs
-        </Link>
+  // Close navbar when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (!document.getElementById("navbar-menu")?.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
 
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden block text-white focus:outline-none"
-          onClick={() => setIsOpen(!isOpen)}
-        >
+    if (isOpen) {
+      document.addEventListener("click", handleClickOutside);
+    } else {
+      document.removeEventListener("click", handleClickOutside);
+    }
+
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, [isOpen]);
+
+  return (
+    <nav className="bg-gray-800 text-white p-4 relative">
+      <div className="max-w-4xl mx-auto flex justify-between items-center">
+        <Link href="/" className="text-lg font-bold">Arvs</Link>
+        <button onClick={() => setIsOpen(!isOpen)} className="text-white">
           ☰
         </button>
-
-        {/* Navbar Links */}
-        <div className={`absolute top-14 left-0 w-full bg-gray-800 md:static md:w-auto md:flex space-x-6 p-4 md:p-0 ${isOpen ? "block" : "hidden"} md:block`}>
-          <Link href="/" className="block md:inline hover:text-green-300">Home</Link>
-          <Link href="/about" className="block md:inline hover:text-green-300">About</Link>
-          <Link href="/projects" className="block md:inline hover:text-green-300">Projects</Link>
-          <Link href="/blog" className="block md:inline hover:text-green-300">Blog</Link>
-        </div>
       </div>
+
+      {isOpen && (
+        <div id="navbar-menu" className="absolute top-full left-0 w-full bg-gray-800 p-4">
+          <ul className="flex flex-col space-y-4">
+            <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+            <li><Link href="/about" onClick={() => setIsOpen(false)}>About</Link></li>
+            <li><Link href="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
+            <li><Link href="/blog" onClick={() => setIsOpen(false)}>Blog</Link></li>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 }
