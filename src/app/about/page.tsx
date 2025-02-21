@@ -7,6 +7,7 @@ export default function AboutPage() {
     return (
       <main className="container mx-auto max-width pt-10 pb-20">
         <section>
+          <br />
           <h1 className="text-xl text-black md:text-2xl xl:text-3xl xl:leading-snug font-bold">
             About Me
           </h1>

@@ -33,7 +33,7 @@ export default function Navbar() {
   }, [isOpen]);
 
   return (
-    <nav className="bg-gray-800 text-white p-4 relative">
+    <nav className="bg-gray-800 text-white p-4 fixed top-0 left-0 w-full z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <Link href="/" className="text-lg font-bold">Arvs</Link>
 

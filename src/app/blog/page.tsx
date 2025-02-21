@@ -38,6 +38,7 @@ const posts = [
 export default function BlogPage() {
   return (
     <div className="container mx-auto p-6">
+      <br /><br />
       <h1 className="text-xl text-black md:text-2xl xl:text-3xl xl:leading-snug font-bold">
         My Blog
       </h1>
