@@ -23,7 +23,7 @@ const posts = [
     title: "Outdoor Life",
     excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
     date: "February 18, 2025",
-    photoUrl: "/images/outdoors/solo.jpg",
+    photoUrl: "/images/outdoors/catmon.jpg",
   },
   {
     id: 4,

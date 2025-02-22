@@ -29,7 +29,8 @@ const posts = [
       "/images/work/koda-samgyup.jpg",
       "/images/work/koda-somac.jpg",
       "/images/outdoors/kanirag-group.jpg",
-      "/images/work/koda-xmas.jpg"
+      "/images/work/koda-xmas.jpg",
+      "/images/work/catmon-group.jpg"
     ],
   },
   {
@@ -42,6 +43,7 @@ const posts = [
       "/images/outdoors/kaniraghike.jpg", 
       "/images/outdoors/spartanhike.jpg",
       "/images/outdoors/latabanhike.jpg", 
+      "/images/outdoors/catmonhike.jpg"
       
     ],
   },
