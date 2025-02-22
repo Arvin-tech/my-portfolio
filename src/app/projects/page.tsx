@@ -4,6 +4,7 @@ import { projectDetails } from "@/app/data/projects";
 export default function ProjectsPage() {
   return (
     <div className="p-6">
+      <br /><br />
       <h1 className="text-2xl font-bold mb-4">Projects</h1>
       <p className="paragraph-color mb-6">
         Here are some of the projects I have worked on, showcasing my skills in software testing, and web development. Each project highlights different technologies and my involvement in the project.
