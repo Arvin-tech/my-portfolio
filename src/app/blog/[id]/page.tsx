@@ -41,7 +41,11 @@ const posts = [
     photoUrl: [
       "/images/outdoors/kanirag.jpg", 
       "/images/outdoors/kaniraghike.jpg", 
+      "/images/outdoors/kanirag-hike-rock.jpg",
+      "/images/outdoors/starbuks.jpg",
       "/images/outdoors/spartanhike.jpg",
+      "/images/outdoors/camp-adela.jpg",
+      "/images/outdoors/camp-adela-solo.jpg",
       "/images/outdoors/latabanhike.jpg", 
       "/images/outdoors/catmonhike.jpg"
       
@@ -56,6 +60,7 @@ const posts = [
       "/images/friends/team_dinner.jpg",
       "/images/friends/halloween.jpg", 
       "/images/friends/angels_pizza.jpg",
+      "/images/friends/dohera.jpg",
       "/images/friends/boys_pizza.jpg"
     ],
   },
