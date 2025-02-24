@@ -9,13 +9,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const posts = [
-  {
-    id: "1",
-    title: "Welcome to My Blog!",
-    content: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
-    date: "February 17, 2025",
-    photoUrl: ["/images/blog_thumbnails/blog.jpg", "/images/blog_thumbnails/blog.jpg"],
-  },
+  // {
+  //   id: "1",
+  //   title: "Welcome to My Blog!",
+  //   content: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
+  //   date: "February 17, 2025",
+  //   photoUrl: ["/images/blog_thumbnails/blog.jpg", "/images/blog_thumbnails/blog.jpg"],
+  // },
   {
     id: "2",
     title: "Work-Life Balance",

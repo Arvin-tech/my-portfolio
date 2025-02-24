@@ -4,13 +4,13 @@ import Image from 'next/image';
 import Link from "next/link";
 
 const posts = [
-  {
-    id: 1,
-    title: "Welcome to My Blog!",
-    excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
-    date: "February 17, 2025",
-    photoUrl: "/images/blog_thumbnails/blog.jpg",
-  },
+  // {
+  //   id: 1,
+  //   title: "Welcome to My Blog!",
+  //   excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
+  //   date: "February 17, 2025",
+  //   photoUrl: "/images/blog_thumbnails/blog.jpg",
+  // },
   {
     id: 2,
     title: "Work-Life Balance",
