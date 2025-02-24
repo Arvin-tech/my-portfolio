@@ -25,6 +25,20 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+/* Make text scale responsively */
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px; 
+  }
 }
 
 /* Apply dynamic color to paragraphs */
