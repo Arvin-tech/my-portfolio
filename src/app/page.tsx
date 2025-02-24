@@ -17,7 +17,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 text-center md:text-left max-w-4xl w-full">
-          <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm Arvin</h1>
+          <h1 className="text-4xl md:text-6xl font-bold">Hi, I&apos;m Arvin</h1>
           <h2 className="text-xl md:text-2xl text-blue-400 mt-2">
             Lorem Ipsum Dolor
           </h2>
@@ -29,7 +29,7 @@ export default function Home() {
               Hire Me
             </button>
             <button className="border border-blue-400 text-blue-400 px-6 py-2 rounded-lg hover:bg-blue-400 hover:text-white">
-              Let's Talk
+              Let&apos;s Talk
             </button>
           </div>          
 
@@ -39,7 +39,7 @@ export default function Home() {
       {/* Contact Section */}
       <section className="w-full bg-gray-900 py-12 text-center">
         <h2 className="text-2xl font-semibold">Contact Me</h2>
-        <p className="mt-2 text-gray-400">Let's work together! Reach out via email or socials.</p>
+        <p className="mt-2 text-gray-400">Let&apos;s work together! Reach out via email or socials.</p>
         <div className="flex justify-center gap-4 mt-4">
           <a
             href="mailto:your.email@example.com"
