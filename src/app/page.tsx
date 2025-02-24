@@ -2,116 +2,113 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-5 row-start-2 items-center sm:items-start">
-        <Image
-          className="mx-auto mb-4"
-          src="/repair.svg"
-          alt="Next.js logo"
-          width={150}
-          height={150}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            This portfolio is under development
-            {/* Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code> */}
-            .
-          </li>
-          <li>You are free to judge, enjoy democracy.</li>
-        </ol>
+    <div className="min-h-screen bg-[#0a192f] text-white">
+      {/* Hero Section */}
+      <section className="relative w-full h-screen flex items-center justify-center text-center md:text-left px-8 md:px-20">
+        {/* Background Cover Image */}
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="/images/outdoors.jpg"
+            alt="Cover Background"
+            fill
+            className="object-cover"
+          />
+        </div>
 
-        {/* <div className="flex gap-4 items-center flex-col sm:flex-row">
+        {/* Content */}
+        <div className="relative z-10 text-center md:text-left max-w-4xl w-full">
+          <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm Arvin</h1>
+          <h2 className="text-xl md:text-2xl text-blue-400 mt-2">
+            Lorem Ipsum Dolor
+          </h2>
+          <p className="mt-4 text-gray-300">
+            This portfolio is under development
+          </p>
+          <div className="mt-6 flex gap-4 justify-center md:justify-start">
+            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
+              Hire Me
+            </button>
+            <button className="border border-blue-400 text-blue-400 px-6 py-2 rounded-lg hover:bg-blue-400 hover:text-white">
+              Let's Talk
+            </button>
+          </div>          
+
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="w-full bg-gray-900 py-12 text-center">
+        <h2 className="text-2xl font-semibold">Contact Me</h2>
+        <p className="mt-2 text-gray-400">Let's work together! Reach out via email or socials.</p>
+        <div className="flex justify-center gap-4 mt-4">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:your.email@example.com"
+            className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+            Email Me
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/arvin-s-8963512a4/"
             target="_blank"
             rel="noopener noreferrer"
+            className="border border-blue-400 text-blue-400 px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-white"
           >
-            Read our docs
+            LinkedIn
           </a>
-        </div> */}
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/Arvin-tech"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/github.svg"
-            alt="github icon"
-            width={16}
-            height={16}
-          />
-          Github
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/arvin-s-8963512a4/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/linkedin.svg"
-            alt="linkedin icon"
-            width={16}
-            height={16}
-          />
-          LinkedIn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://facebook.com/arvinn.net"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/facebook.svg"
-            alt="Facebook icon"
-            width={16}
-            height={16}
-          />
-          Facebook
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.instagram.com/arvsdotcom/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/instagram.svg"
-            alt="Instagram icon"
-            width={16}
-            height={16}
-          />
-          Instagram →
-        </a>
-      </footer>
+        </div>
+
+        <br />
+
+        <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+            <a
+              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+              href="https://github.com/Arvin-tech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                aria-hidden
+                src="/github.svg"
+                alt="github icon"
+                width={16}
+                height={16}
+              />
+              Github
+            </a>
+            <a
+              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+              href="https://facebook.com/arvinn.net"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                aria-hidden
+                src="/facebook.svg"
+                alt="Facebook icon"
+                width={16}
+                height={16}
+              />
+              Facebook
+            </a>
+            <a
+              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+              href="https://www.instagram.com/arvsdotcom/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                aria-hidden
+                src="/instagram.svg"
+                alt="Instagram icon"
+                width={16}
+                height={16}
+              />
+              Instagram →
+            </a>
+
+          </div>
+
+      </section>
     </div>
   );
 }
