@@ -57,7 +57,7 @@ export default function BlogPage() {
               className="w-full h-56 object-cover"
             />
             <div className="p-4">
-              <p className="text-sm text-purple-600 mb-2">{post.date} | Post</p>
+              <p className="text-sm text-purple-600 mb-2">{post.date}</p>
               <h3 className="text-lg font-semibold mb-2">{post.title}</h3>
               <p className="text-gray-600 mb-4">{post.excerpt}</p>
               <Link href={`/blog/${post.id}`} className="text-purple-600 font-semibold hover:underline">
