@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar"; // Relative path
+import MainContainer from "./components/MainContainer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,12 +22,13 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Navbar /> 
-        <main className="p-4 max-w-4xl mx-auto">{children}</main>
-        {/* <main className="p-0">{children}</main> */}
+        <Navbar />
+        {/* <main className="p-4 max-w-4xl mx-auto">{children}</main> */}
+        <MainContainer>{children}</MainContainer>
       </body>
     </html>
   );

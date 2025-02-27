@@ -2,27 +2,27 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#0a192f] text-white">
+    <div className="min-h-screen bg-[#0a192f] text-white w-full">
       {/* Hero Section */}
       <section className="relative w-full h-screen flex items-center justify-center text-center md:text-left px-8 md:px-20">
         {/* Background Cover Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/outdoors.jpg"
+            src="/images/outdoors/catmon.jpg"
             alt="Cover Background"
             fill
-            className="object-cover"
+            className="object-cover w-screen h-screen brightness-50"
           />
         </div>
 
         {/* Content */}
         <div className="relative z-10 text-center md:text-left max-w-4xl w-full">
-          <h1 className="text-4xl md:text-6xl font-bold">Hi, I&apos;m Arvin</h1>
+          <h1 className="text-4xl md:text-6xl font-bold">Hi, I&apos;m Arvs</h1>
           <h2 className="text-xl md:text-2xl text-blue-400 mt-2">
-            Lorem Ipsum Dolor
+            Software Test Engineer / Developer
           </h2>
           <p className="mt-4 text-gray-300">
-            This portfolio is under development
+            Disclaimer: This portfolio is under development
           </p>
           <div className="mt-6 flex gap-4 justify-center md:justify-start">
             <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
