@@ -37,12 +37,12 @@ const ChatBox = () => {
           </div>
 
           {/* Input Field */}
-          <div className="flex gap-2 mt-2">
+          <div className="w-full flex gap-2 mt-2">
             <input
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              className="flex-1 border rounded-md p-2"
+              className="w-full border rounded-md p-2 text-lg"
               placeholder="Send message..."
             />
             <button
