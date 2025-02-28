@@ -19,15 +19,17 @@ export default function Home() {
         <div className="relative z-10 text-center md:text-left max-w-4xl w-full">
           <h1 className="text-4xl md:text-6xl font-bold">Hi, I&apos;m Arvs</h1>
           <h2 className="text-xl md:text-2xl text-blue-400 mt-2">
-            Software Test Engineer / Developer
+            Software Test Engineer 
           </h2>
           <p className="mt-4 text-gray-300">
             Disclaimer: This portfolio is under development
           </p>
           <div className="mt-6 flex gap-4 justify-center md:justify-start">
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-              Hire Me
-            </button>
+            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
+                Hire Me
+              </button>
+            </a>
             <button className="border border-blue-400 text-blue-400 px-6 py-2 rounded-lg hover:bg-blue-400 hover:text-white">
               Let&apos;s Talk
             </button>
@@ -42,7 +44,7 @@ export default function Home() {
         <p className="mt-2 text-gray-400">Let&apos;s work together! Reach out via email or socials.</p>
         <div className="flex justify-center gap-4 mt-4">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:arvinsaguisa@gmail.com"
             className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
           >
             Email Me
