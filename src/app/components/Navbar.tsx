@@ -1,9 +1,19 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // Get the current route for highlighting
+
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/projects", label: "Projects" },
+    { href: "/blog", label: "Blog" },
+  ];
+
 
   // Close navbar when clicking outside or scrolling
   useEffect(() => {
@@ -39,10 +49,19 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/projects">Projects</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
+
+          {navLinks.map((link) => (
+            <li key={link.href}>
+              <Link
+                href={link.href}
+                className={`${
+                  pathname === link.href ? "text-green-300" : "hover:text-green-300"
+                }`}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
         </ul>
 
         {/* Mobile Menu Button */}
@@ -55,10 +74,23 @@ export default function Navbar() {
       {isOpen && (
         <div id="navbar-menu" className="absolute top-full left-0 w-full bg-gray-800 p-4">
           <ul className="flex flex-col space-y-4">
-            <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+            {/* <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
             <li><Link href="/about" onClick={() => setIsOpen(false)}>About</Link></li>
             <li><Link href="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
-            <li><Link href="/blog" onClick={() => setIsOpen(false)}>Blog</Link></li>
+            <li><Link href="/blog" onClick={() => setIsOpen(false)}>Blog</Link></li> */}
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className={`${
+                    pathname === link.href ? "text-green-300" : "hover:text-green-300"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       )}
