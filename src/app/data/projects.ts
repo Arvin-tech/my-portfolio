@@ -35,7 +35,7 @@ export const projectDetails = [
       title: "Sqilleo",
       image: "/images/projects/sqilleo.png",
       description: "Sqilleo is an interactive e-learning platform that helps users develop skills through engaging courses and real-world applications.",
-      techstack: ["Next.js", "Cypress", "Postman"],
+      techstack: ["Next.js", "Postman"],
       previewLink: "https://www.sqilleo.com/home",
       githubLink: "https://github.com/yourusername/qatest",
     },

@@ -31,9 +31,9 @@ export default function ProjectCard({
         {title}
       </h2>
       <p className="text-gray-600 dark:text-gray-400 mt-1">{description}</p>
-      {/* <p className="text-sm font-semibold mt-2 text-gray-600 dark:text-gray-400">
+      <p className="text-sm font-semibold mt-2 text-gray-600 dark:text-gray-400">
         Tech Stack: {techstack.join(", ")}
-      </p> */}
+      </p>
       <div className="mt-3 flex gap-4">
         <Link
           href={previewLink}
