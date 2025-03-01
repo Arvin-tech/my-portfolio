@@ -26,7 +26,7 @@ export const projectDetails = [
     {
       title: "The DocSites",
       image: "/images/projects/thedocsites.png",
-      description: "TheDocSites offers The Best Affordable Website Templates for Dentists and Physicians. I developed custom website templates for dental and medical clients",
+      description: "TheDocSites offers The Best Affordable Website Templates for Dentists and Physicians.",
       techstack: ["PHP", "HTML", "CSS", "JavaScript"],
       previewLink: "https://www.docsites.com/",
       githubLink: "https://github.com/yourusername/qatest",

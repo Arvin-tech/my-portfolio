@@ -9,63 +9,66 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const posts = [
-  // {
-  //   id: "1",
-  //   title: "Welcome to My Blog!",
-  //   content: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
-  //   date: "February 17, 2025",
-  //   photoUrl: ["/images/blog_thumbnails/blog.jpg", "/images/blog_thumbnails/blog.jpg"],
-  // },
   {
-    id: "2",
-    title: "Work-Life Balance",
-    content: [
-        "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry.",
-        "It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
-        "This is the third paragraph, which will only appear if it exists in the content array."
+    "id": "2",
+    "title": "Work-Life Balance",
+    "content": [
+    "Work-life balance is something my company strongly upholds, and over time, I’ve embraced it as part of my routine.",
+    "Beyond work, we engage in various activities to keep life fun and fulfilling. We play basketball, compete in online games, and even go on outdoor adventures together. These activities not only help us relax but also strengthen our team bond.",
+    "Taking breaks and making time for personal growth and social activities has been a game-changer for me. Whether it's through sports, gaming, or simply unwinding with friends, I’ve learned that balance is key to staying productive and happy."
     ],
-    date: "February 19, 2025",
-    photoUrl: [
+    "date": "February 19, 2025",
+    "photoUrl": [
       "/images/work/koda-samgyup.jpg",
       "/images/work/koda-somac.jpg",
       "/images/outdoors/kanirag-group.jpg",
       "/images/work/koda-xmas.jpg",
       "/images/work/catmon-group.jpg"
-    ],
+    ]
   },
   {
-    id: "3",
-    title: "Outdoor Life",
-    content: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
-    date: "February 18, 2025",
-    photoUrl: [
-      "/images/outdoors/kanirag.jpg", 
-      "/images/outdoors/kaniraghike.jpg", 
+    "id": "3",
+    "title": "Outdoor Life",
+    "content": [
+      "The mountain is calling! My outdoor adventures began in 2023 with friends. We started our journey by hiking to Cebu's Starbuks Trail. Approximately just a 45-minute hike from Paseo Arcenas in Banawa, the famous Starbuks trail offers hikers a spectacular view of the sunrise over the city of Cebu.",
+      "After that, we took on a bigger challenge at Spartan Trail. The trek was tough, with rocky paths and steep climbs, but the view at the top was breathtaking.",
+      "After conquering Spartan, we set our sights on Mt. Kanirag, located in the highlands of Cebu City. This mountain offers breathtaking views and a rewarding climb.",
+      "Lataban Hills was another exciting trek, featuring rolling hills and open landscapes that gave us a different kind of adventure which tested our endurance with long trails and sunny weather.",
+      "Mt. Kapayas in Catmon Cebu was our recent stop and one of the most challenging parts was the 'Face the Wall' section, a steep rock ascent that required careful footing and upper body strength to climb. The journey was tough, but the untouched beauty of the place made it all worth it",
+      "I also hiked alone to push my limits and understand my endurance better. Solo hiking taught me patience, resilience, and appreciation for the outdoors."
+    ],
+    "date": "February 18, 2025",
+    "photoUrl": [
+      "/images/outdoors/kanirag.jpg",
+      "/images/outdoors/kaniraghike.jpg",
       "/images/outdoors/kanirag-hike-rock.jpg",
       "/images/outdoors/starbuks.jpg",
       "/images/outdoors/spartanhike.jpg",
       "/images/outdoors/camp-adela.jpg",
       "/images/outdoors/camp-adela-solo.jpg",
-      "/images/outdoors/latabanhike.jpg", 
+      "/images/outdoors/latabanhike.jpg",
       "/images/outdoors/catmonhike.jpg"
-      
-    ],
+    ]
   },
   {
-    id: "4",
-    title: "Life in My Twenties",
-    content: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
-    date: "February 19, 2025",
-    photoUrl: [
+    "id": "4",
+    "title": "Adulting Chronicles",
+    "content": [
+      "Adulting is a journey of responsibilities, from managing finances to balancing work and personal life.",
+      "Spending time with friends during team dinners and celebrations makes the journey easier and more enjoyable.",
+      "The reality of bills, career growth, and maintaining relationships is challenging, but with the right mindset, it's a rewarding experience."
+    ],
+    "date": "February 19, 2025",
+    "photoUrl": [
       "/images/friends/team_dinner.jpg",
-      "/images/friends/halloween.jpg", 
+      "/images/friends/halloween.jpg",
       "/images/friends/angels_pizza.jpg",
       "/images/friends/dohera.jpg",
       "/images/friends/boys_pizza.jpg"
-    ],
-  },
-
+    ]
+  }
 ];
+
 
 export default function BlogPostPage() {
   const { id } = useParams();
