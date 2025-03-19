@@ -45,7 +45,6 @@ const posts = [
       "/images/outdoors/starbuks.jpg",
       "/images/outdoors/spartanhike.jpg",
       "/images/outdoors/camp-adela.jpg",
-      "/images/outdoors/camp-adela-solo.jpg",
       "/images/outdoors/latabanhike.jpg",
       "/images/outdoors/catmonhike.jpg"
     ]

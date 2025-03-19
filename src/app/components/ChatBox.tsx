@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { MessageSquare, X } from "lucide-react"; // Import icons
+import { log } from "console";
 
 const ChatBox = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +13,7 @@ const ChatBox = () => {
     if (input.trim() !== "") {
       setMessages([...messages, input]);
       setInput(""); // Clear input after sending
+      console.log(input); // log input in console for testing purposes
     }
   };
 
