@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar"; // Relative path
 import MainContainer from "./components/MainContainer";
 import ChatBox from "./components/ChatBox";
+import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({
         {/* <main className="p-4 max-w-4xl mx-auto">{children}</main> */}
         <MainContainer>{children}</MainContainer>
         <ChatBox />
+        <Footer />
       </body>
     </html>
   );
