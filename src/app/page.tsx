@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
 
         <div className="mt-8 flex flex-col items-center">
           <div className="w-32 h-32 rounded-full border-4 border-blue-400 overflow-hidden">
-            <img src="/your-image-path.jpg" alt="Profile" className="w-full h-full object-cover" />
+            <img src="/images/profile.jpg" alt="Profile" className="w-full h-full object-cover" />
           </div>
 
           <h3 className="mt-6 text-xl font-bold">Software Tester / Web Developer</h3>
@@ -56,11 +57,16 @@ export default function Home() {
             purus est ullamcorper neque.
           </p>
 
-          <button className="mt-6 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
-            Read More
-          </button>
+          <Link href="/about">
+            <button className="mt-6 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+              Read More
+            </button>
+          </Link>
+
         </div>
       </section>
+
+      
       
     </div>
   );

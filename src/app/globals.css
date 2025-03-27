@@ -43,45 +43,35 @@ body {
 
 /* Apply dynamic color to paragraphs */
 .paragraph-color {
-  color: var(--paragraph-light); /* Default to light mode text color */
+  color: var(--paragraph-light); 
 }
 
 /* When in dark mode */
 .dark .paragraph-color {
-  color: var(--paragraph-dark); /* Change color in dark mode */
+  color: var(--paragraph-dark); 
 }
-
-/* Card Styles */
-/* .card {
-  background-color: var(--background);
-  color: var(--foreground); 
-  padding: 1rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-} */
 
 
 /* Title & Description Styling */
 .card h2 {
-  color: var(--foreground); /* Title text color */
+  color: var(--foreground); 
 }
 
 .card p {
-  color: var(--foreground); /* Description text color */
+  color: var(--foreground); 
 }
 
 .card p.text-gray-600 {
-  color: var(--foreground); /* Adjust text color for specific description styling */
+  color: var(--foreground); 
 }
 
 .card p.text-gray-600.dark\:text-gray-300 {
-  color: var(--foreground); /* Keep the description color consistent in both modes */
+  color: var(--foreground); 
 }
 
 /* Links Styling */
 .card a {
-  color: #0070f3; /* Link color */
+  color: #0070f3; 
   text-decoration: none;
 }
 

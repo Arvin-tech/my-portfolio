@@ -31,8 +31,9 @@ export default function RootLayout({
         <Navbar />
         {/* <main className="p-4 max-w-4xl mx-auto">{children}</main> */}
         <MainContainer>{children}</MainContainer>
-        <ChatBox />
         <Footer />
+        <ChatBox />
+       
       </body>
     </html>
   );

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <section className="w-full bg-gray-800 py-12 text-center">
+    <section className="w-full bg-gray-800 py-12 text-center text-white">
       <h2 className="text-2xl font-semibold">Contact Me</h2>
       <p className="mt-2 text-gray-400">Let&apos;s work together! Reach out via email or socials.</p>
       
