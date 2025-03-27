@@ -46,7 +46,10 @@ export default function Home() {
 
         <div className="mt-8 flex flex-col items-center">
           <div className="w-32 h-32 rounded-full border-4 border-blue-400 overflow-hidden">
-            <img src="/images/profile.jpg" alt="Profile" className="w-full h-full object-cover" />
+            <Image 
+              src="/images/profile.jpg" 
+              alt="Profile" 
+              className="w-full h-full object-cover" />
           </div>
 
           <h3 className="mt-6 text-xl font-bold">Software Tester / Web Developer</h3>
