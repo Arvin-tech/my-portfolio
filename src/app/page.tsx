@@ -1,11 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
+import Skills from "./components/SkillsSnapshot";
+import About from "./components/AboutMe";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a192f] text-white w-full">
-      {/* Hero Section */}
-      <section className="relative w-full h-screen flex items-center justify-center text-center md:text-left px-8 md:px-20">
+      {/* Hero Section h-[900px] or h-[80vh] or h-screen */}
+      <section className="relative w-full h-[900px] flex items-center justify-center text-center md:text-left px-8 md:px-20">
         {/* Background Cover Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -39,37 +40,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full bg-gray-900 py-12 text-center text-white">
-        <h2 className="text-3xl font-semibold">
-          About <span className="text-blue-400">Me</span>
-        </h2>
+     {/* Other Sections in Form of a Component */}
+      <About />
+      <Skills />
 
-        <div className="mt-8 flex flex-col items-center">
-          <div className="w-32 h-32 rounded-full border-4 border-blue-400 overflow-hidden">
-            <Image 
-              src="/images/profile.jpg" 
-              alt="Profile" 
-              className="w-full h-full object-cover" />
-          </div>
-
-          <h3 className="mt-6 text-xl font-bold">Software Tester / Web Developer</h3>
-
-          <p className="mt-4 max-w-xl text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quam lacus, posuere id
-            eros vel, suscipit imperdiet lorem. Quisque volutpat, lorem in faucibus malesuada,
-            purus est ullamcorper neque.
-          </p>
-
-          <Link href="/about">
-            <button className="mt-6 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
-              Read More
-            </button>
-          </Link>
-
-        </div>
-      </section>
-
-      
       
     </div>
   );

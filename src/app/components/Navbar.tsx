@@ -55,7 +55,7 @@ export default function Navbar() {
               <Link
                 href={link.href}
                 className={`${
-                  pathname === link.href ? "text-green-300" : "hover:text-green-300"
+                  pathname === link.href ? "text-blue-400" : "hover:text-blue-400"
                 }`}
               >
                 {link.label}
@@ -84,7 +84,7 @@ export default function Navbar() {
                   href={link.href}
                   onClick={() => setIsOpen(false)}
                   className={`${
-                    pathname === link.href ? "text-green-300" : "hover:text-green-300"
+                    pathname === link.href ? "text-blue-400" : "hover:text-blue-400"
                   }`}
                 >
                   {link.label}

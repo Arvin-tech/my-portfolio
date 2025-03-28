@@ -6,6 +6,7 @@ import MainContainer from "./components/MainContainer";
 import ChatBox from "./components/ChatBox";
 import Footer from "./components/Footer";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -29,11 +30,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar />
-        {/* <main className="p-4 max-w-4xl mx-auto">{children}</main> */}
         <MainContainer>{children}</MainContainer>
         <Footer />
         <ChatBox />
-       
       </body>
     </html>
   );

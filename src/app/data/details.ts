@@ -1,6 +1,6 @@
 export const personalDetails = {
     name: "John Doe",
-    role: "Software Tester | QA Engineer",
+    role: "QA Engineer / Web Developer",
     email: "johndoe@example.com",
     phone: "+1 234 567 890",
     location: "New York, USA",
