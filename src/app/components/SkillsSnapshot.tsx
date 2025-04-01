@@ -8,7 +8,7 @@ const skills = [
   { name: "JAVA", image: "/icons/java-svgrepo-com.svg" },
   { name: "Python", image: "/icons/python-svgrepo-com.svg" },
   { name: "Flask", image: "/icons/flask-svgrepo-com.svg" },
-  { name: "Google Colab", image: "/icons/colaboratory-svgrepo-com.svg" },
+  { name: "Colaboratory", image: "/icons/colaboratory-svgrepo-com.svg" },
   { name: "Git", image: "/icons/git-svgrepo-com.svg" },
   { name: "Figma", image: "/icons/figma-svgrepo-com.svg" },
   { name: "Postman", image: "/icons/postman-icon-svgrepo-com.svg" },
@@ -27,7 +27,7 @@ const Skills = () => {
           Skills <span className="text-blue-400">Snapshot</span>
         </h2>
 
-        <ul className="grid grid-cols-4 gap-4 py-6 mt-12 border-primary-800 ml-4 sm:ml-0">
+        <ul className="grid grid-cols-4 gap-4 py-6 mt-12 border-primary-800 sm:ml-0">
           {skills.map(({ name, image }) => (
             <li key={name} className="flex flex-col items-center gap-1 sm:gap-2">
               <Image
