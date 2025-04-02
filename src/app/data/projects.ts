@@ -24,6 +24,14 @@ export const projectDetails = [
       githubLink: "https://github.com/yourusername/qatest",
     },
     {
+      title: "CleanCut OGOC - Under Development",
+      image: "/images/projects/cleancut.png", // Store images in public/images
+      description: "3 app project that aims to get connected together by a single crediting system. App involves a Ride Hailing, a Podcast, and a Food Bank / Sharing.",
+      techstack: ["Flutter", "S3"],
+      previewLink: "https://ride-hailing-api.dev2.koda.ws",
+      githubLink: "https://github.com/orgs/SocentTechstars/projects/11",
+    },
+    {
       title: "The DocSites",
       image: "/images/projects/thedocsites.png",
       description: "The Best Affordable Website Templates for Dentists and Physicians. I customized website templates for dental and medical clients",
