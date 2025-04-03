@@ -19,7 +19,6 @@ const posts = [
     ],
     "date": "February 19, 2025",
     "photoUrl": [
-      "/images/work/koda-office.jpg",
       "/images/work/koda-samgyup.jpg",
       "/images/work/koda-somac.jpg",
       "/images/outdoors/kanirag-group.jpg",

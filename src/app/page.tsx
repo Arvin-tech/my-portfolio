@@ -1,20 +1,49 @@
+"use client";
+
 import Image from "next/image";
 import Skills from "./components/SkillsSnapshot";
 import About from "./components/AboutMe";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+
+const images = [
+  "/images/home_slider/image3.jpg",
+  "/images/home_slider/image1.jpg",
+  "/images/home_slider/image2.jpg",
+  "/images/home_slider/image4.jpg",
+];
 
 export default function Home() {
+
   return (
     <div className="min-h-screen bg-[#0a192f] text-white w-full">
       {/* Hero Section h-[900px] or h-[80vh] or h-screen */}
-      <section className="relative w-full h-[70vh] flex items-center justify-center text-center md:text-left px-8 md:px-20">
+      <section className="relative w-full h-[60vh] flex items-center justify-center text-center md:text-left px-8 md:px-20">
         {/* Background Cover Image */}
         <div className="absolute inset-0 w-full h-full">
-          <Image
-            src="/images/outdoors/catmon.jpg"
-            alt="Cover Background"
-            fill
-            className="object-cover w-screen h-screen brightness-50"
-          />
+
+        <Swiper
+            modules={[Autoplay, Pagination]}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            pagination={false}
+            className="w-full h-full"
+          >
+            {images.map((url, index) => (
+              <SwiperSlide key={index} className="w-full h-full">
+                <div className="relative w-full h-full">
+                  <Image
+                    src={url}
+                    alt={`Slide ${index + 1}`}
+                    fill
+                    className="object-cover w-full h-full brightness-50"
+                  />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
         </div>
 
         {/* Content */}
