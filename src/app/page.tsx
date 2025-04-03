@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a192f] text-white w-full">
       {/* Hero Section h-[900px] or h-[80vh] or h-screen */}
-      <section className="relative w-full h-[900px] flex items-center justify-center text-center md:text-left px-8 md:px-20">
+      <section className="relative w-full h-[80vh] flex items-center justify-center text-center md:text-left px-8 md:px-20">
         {/* Background Cover Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
