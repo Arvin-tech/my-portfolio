@@ -32,7 +32,7 @@ export const projectDetails = [
       githubLink: "https://github.com/orgs/SocentTechstars/projects/11",
     },
     {
-      title: "The DocSites",
+      title: "The DocSites - Legacy Project",
       image: "/images/projects/thedocsites.png",
       description: "The Best Affordable Website Templates for Dentists and Physicians. I customized website templates for dental and medical clients",
       techstack: ["PHP", "HTML", "CSS", "JavaScript"],
