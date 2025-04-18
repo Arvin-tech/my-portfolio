@@ -46,7 +46,12 @@ const posts = [
       "/images/outdoors/spartanhike.jpg",
       "/images/outdoors/camp-adela.jpg",
       "/images/outdoors/latabanhike.jpg",
-      "/images/outdoors/catmonhike.jpg"
+      "/images/outdoors/catmonhike.jpg",
+      "/images/outdoors/truck.jpg",
+      "/images/outdoors/mountain_view.jpg",
+      "/images/outdoors/rock_view.jpg",
+      "/images/outdoors/solo.jpg",
+      "/images/outdoors/group.jpg",
     ]
   },
   {
