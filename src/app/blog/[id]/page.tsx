@@ -67,6 +67,7 @@ const posts = [
       "/images/friends/team_dinner.jpg",
       "/images/friends/halloween.jpg",
       "/images/friends/angels_pizza.jpg",
+      "/images/friends/jonies_dinner.jpg",
       "/images/friends/dohera.jpg",
       "/images/friends/boys_pizza.jpg"
     ]
