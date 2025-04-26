@@ -5,20 +5,20 @@ interface ProjectProps {
   title: string;
   image: string;
   description: string;
-  techstack: string[];
+  // techstack: string[];
   previewLink: string;
   githubLink: string;
-  date?: string;
+  // date?: string;
 }
 
 export default function ProjectCard({
   title,
   image,
   description,
-  techstack,
+  // techstack,
   previewLink,
   githubLink,
-  date,
+  // date,
 }: ProjectProps) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">

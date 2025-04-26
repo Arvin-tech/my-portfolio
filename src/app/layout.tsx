@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar"; // Relative path
 import MainContainer from "./components/MainContainer";
-import ChatBox from "./components/ChatBox";
+// import ChatBox from "./components/ChatBox";
 import Footer from "./components/Footer";
 
 

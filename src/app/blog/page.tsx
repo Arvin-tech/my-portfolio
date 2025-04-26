@@ -54,7 +54,7 @@ export default function BlogPage() {
         </h1>
         <p className="text-gray-600 text-lg max-w-5xl">
           This is a space where I share my experiences and insights on life, work, and finding balance. 
-          Whether it's discovering a peaceful spot to unwind or exploring the art of maintaining work-life harmony.
+          Whether discovering a peaceful spot to unwind or exploring the art of maintaining work-life harmony.
         </p>
       </div>
 
