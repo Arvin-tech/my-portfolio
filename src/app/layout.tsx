@@ -32,7 +32,7 @@ export default function RootLayout({
         <Navbar />
         <MainContainer>{children}</MainContainer>
         <Footer />
-        <ChatBox />
+        {/* <ChatBox /> */}
       </body>
     </html>
   );

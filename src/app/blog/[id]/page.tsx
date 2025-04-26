@@ -71,6 +71,42 @@ const posts = [
       "/images/friends/dohera.jpg",
       "/images/friends/boys_pizza.jpg"
     ]
+  },
+  {
+    "id": "5",
+    "title": "Adulting Chronicles",
+    "content": [
+      "Adulting is a journey of responsibilities, from managing finances to balancing work and personal life.",
+      "Spending time with friends during team dinners and celebrations makes the journey easier and more enjoyable.",
+      "The reality of bills, career growth, and maintaining relationships is challenging, but with the right mindset, it's a rewarding experience."
+    ],
+    "date": "February 19, 2025",
+    "photoUrl": [
+      "/images/friends/team_dinner.jpg",
+      "/images/friends/halloween.jpg",
+      "/images/friends/angels_pizza.jpg",
+      "/images/friends/jonies_dinner.jpg",
+      "/images/friends/dohera.jpg",
+      "/images/friends/boys_pizza.jpg"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Adulting Chronicles",
+    "content": [
+      "Adulting is a journey of responsibilities, from managing finances to balancing work and personal life.",
+      "Spending time with friends during team dinners and celebrations makes the journey easier and more enjoyable.",
+      "The reality of bills, career growth, and maintaining relationships is challenging, but with the right mindset, it's a rewarding experience."
+    ],
+    "date": "February 19, 2025",
+    "photoUrl": [
+      "/images/friends/team_dinner.jpg",
+      "/images/friends/halloween.jpg",
+      "/images/friends/angels_pizza.jpg",
+      "/images/friends/jonies_dinner.jpg",
+      "/images/friends/dohera.jpg",
+      "/images/friends/boys_pizza.jpg"
+    ]
   }
 ];
 
@@ -108,7 +144,7 @@ export default function BlogPostPage() {
           ))}
       </Swiper>
 
-      <div className="w-full max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 mt-6">
+      <div className="w-full max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-6 mt-6">
         <Link href="/blog" className="text-purple-600 font-semibold">
           ← Back to Blog
         </Link>

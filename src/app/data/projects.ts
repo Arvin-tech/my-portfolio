@@ -1,11 +1,12 @@
 export const projectDetails = [
     {
-      title: "CrediSync - Capstone Project",
+      title: "CrediSync Capstone Project",
       image: "/images/projects/credisync.png", // Store images in public/images
       description: "A machine learning-based loan eligibility assessment platform.",
       techstack: ["Flask", "Python", "MySQL", "Postman"],
       previewLink: "https://credysync.example.com",
       githubLink: "https://github.com/martinezcristy/CrediSyncML",
+      date: "2023",
     },
     {
       title: "Sqilleo",
@@ -14,6 +15,7 @@ export const projectDetails = [
       techstack: ["Lorem", "Lorem", "Lorem"],
       previewLink: "https://www.sqilleo.com/home",
       githubLink: "https://github.com/yourusername/qatest",
+      date: "2023",
     },
     {
       title: "Light Awake",
@@ -22,14 +24,7 @@ export const projectDetails = [
       techstack: ["Lorem", "Lorem", "Lorem"],
       previewLink: "https://lightawake.biz/",
       githubLink: "https://github.com/yourusername/qatest",
-    },
-    {
-      title: "eStorePhil",
-      image: "/images/projects/eStorePhil.png",
-      description: "Through the eStorePhil e-commerce platform, you can sell your products and have them delivered from Canada directly to the Philippines.",
-      techstack: ["Lorem", "Lorem", "Lorem"],
-      previewLink: "https://app.estorephil.com/home",
-      githubLink: "https://github.com/yourusername/qatest",
+      date: "2023",
     },
     {
       title: "Past Zero",
@@ -38,14 +33,16 @@ export const projectDetails = [
       techstack: ["Flutter", "Laravel"],
       previewLink: "https://pastzero.com/",
       githubLink: "https://github.com/yourusername/qatest",
+      date: "2023",
     },
     {
-      title: "The DocSites - Legacy Project",
+      title: "The DocSites",
       image: "/images/projects/thedocsites.png",
-      description: "The Best Affordable Website Templates for Dentists and Physicians. I customized website templates for dental and medical clients",
+      description: "The Best Affordable Website Templates for Dentists and Physicians.",
       techstack: ["PHP", "HTML", "CSS", "JavaScript"],
       previewLink: "https://www.docsites.com/",
       githubLink: "https://github.com/yourusername/qatest",
+      date: "2024",
     },
     {
       title: "Fourfield Pond",
@@ -54,14 +51,25 @@ export const projectDetails = [
       techstack: ["Flutter", "Firebase"],
       previewLink: "https://qatest.example.com",
       githubLink: "https://github.com/yourusername/qatest",
+      date: "2024",
     },
     {
-      title: "CleanCut OGOC - Under Development",
-      image: "/images/projects/cleancut.png", // Store images in public/images
+      title: "CleanCut OGOC",
+      image: "/images/projects/cleancut.png", 
       description: "3 app project that aims to get connected together by a single crediting system. App involves a Ride Hailing, a Podcast, and a Food Bank / Sharing.",
       techstack: ["Flutter", "S3"],
       previewLink: "https://ride-hailing-api.dev2.koda.ws",
       githubLink: "https://github.com/orgs/SocentTechstars/projects/11",
+      date: "2025",
+    },
+    {
+      title: "eStorePhil",
+      image: "/images/projects/eStorePhil.png",
+      description: "Through the eStorePhil e-commerce platform, you can sell your products and have them delivered from Canada directly to the Philippines.",
+      techstack: ["Lorem", "Lorem", "Lorem"],
+      previewLink: "https://app.estorephil.com/home",
+      githubLink: "https://github.com/yourusername/qatest",
+      date: "2025",
     },
   ];
   
