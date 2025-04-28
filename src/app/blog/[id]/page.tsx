@@ -112,7 +112,8 @@ const posts = [
 
 
 export default function BlogPostPage() {
-  const { id } = useParams();
+  const params = useParams();
+  const id = params?.id as string;
   const post = posts.find((p) => p.id === id);
 
   if (!post) {

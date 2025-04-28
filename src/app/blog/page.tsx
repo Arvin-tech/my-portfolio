@@ -61,11 +61,11 @@ export default function BlogPage() {
       <div className="relative group">
         <Swiper
           modules={[Navigation]}
-          spaceBetween={30}
+          spaceBetween={10}
           slidesPerView={1}
           navigation={{
-            nextEl: '.custom-next',
-            prevEl: '.custom-prev',
+            nextEl: '.projects-next',
+            prevEl: '.projects-prev',
           }}
           breakpoints={{
             640: { slidesPerView: 1 },
@@ -75,8 +75,8 @@ export default function BlogPage() {
           className="pb-12" // Add padding for navigation dots if pagination is enabled
         >
           {posts.map((post) => (
-            <SwiperSlide key={post.id}>
-              <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
+            <SwiperSlide key={post.id} className="pb-2">
+              <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col mx-4">
                 <div className="relative h-48 md:h-56 w-full">
                   <Image
                     src={post.photoUrl}
@@ -105,9 +105,11 @@ export default function BlogPage() {
         </Swiper>
 
         {/* Custom Navigation Buttons */}
+        
         <button 
-          className="custom-prev absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white p-3 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-gray-100"
-          aria-label="Previous slide"
+          className="projects-prev absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white p-3 rounded-full shadow-md hover:bg-gray-100 transform -translate-x-1/2"
+          aria-label="Previous project"
+          style={{ left: '-20px' }}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -115,8 +117,9 @@ export default function BlogPage() {
         </button>
         
         <button 
-          className="custom-next absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white p-3 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-gray-100"
-          aria-label="Next slide"
+          className="projects-next absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white p-3 rounded-full shadow-md hover:bg-gray-100 transform translate-x-1/2"
+          aria-label="Next project"
+          style={{ right: '-20px' }}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
