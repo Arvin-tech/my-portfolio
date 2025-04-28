@@ -6,7 +6,6 @@ interface StudiesProps {
   school: string;
   location: string;
   duration: string;
-  website: string;
 }
 
 const schoolLogos: { [key: string]: string } = {
@@ -14,7 +13,7 @@ const schoolLogos: { [key: string]: string } = {
   "Banilad Night High School": "/images/logos/talambantimessquare_logo.png", 
 };
 
-const Studies: React.FC<StudiesProps> = ({ course, school, location, duration, website }) => {
+const Studies: React.FC<StudiesProps> = ({ course, school, location, duration }) => {
   return (
     <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
       <div className="flex justify-between items-center">

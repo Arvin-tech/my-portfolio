@@ -42,13 +42,12 @@ export default function AboutPage() {
             Education
           </h1>
           {React.Children.toArray(
-            educationDetails.map(({ course, school, location, duration, website }) => (
+            educationDetails.map(({ course, school, location, duration }) => (
               <Studies
                 course={course}
                 school={school}
                 location={location}
                 duration={duration}
-                website={website}
               />
             ))
           )}

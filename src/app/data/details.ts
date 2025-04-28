@@ -48,14 +48,12 @@ export const educationDetails = [
     school: "University of Cebu",
     location: "Cebu City",
     duration: "2019 - 2024",
-    website: "https://www.universityofcebu.net/",
   },
   {
     course: "General Academic Strand",
     school: "Banilad Night High School",
     location: "Cebu City",
     duration: "2013 - 2019",
-    website: "https://www.universityofcebu.net/",
   },
 ];
   
