@@ -56,7 +56,7 @@ export default function Home() {
             Disclaimer: This portfolio is under development
           </p>
           <div className="mt-6 flex gap-4 justify-center md:justify-start">
-            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/arvin-saguisa-cv.pdf" target="_blank" rel="noopener noreferrer">
               <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
                 Hire Me
               </button>
