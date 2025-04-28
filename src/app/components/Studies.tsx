@@ -33,9 +33,7 @@ const Studies: React.FC<StudiesProps> = ({ course, school, location, duration, w
               />
             {/* <p className="text-content text-xs md:text-sm font-light pl-1">{school}</p> */}
             <p className="text-content text-xs md:text-sm font-light pl-1">
-              <a href={website} target="_blank" rel="noopener noreferrer">
-                {school}
-              </a>
+              {school}
             </p>
           </div>
           <div className="flex items-center">

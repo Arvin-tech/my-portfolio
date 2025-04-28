@@ -20,12 +20,10 @@ const About = () => {
           />
         </div>
 
-        <h3 className="mt-6 text-xl font-bold">{personalDetails.role}</h3>
+        <h3 className="mt-6 text-xl font-bold">{personalDetails.name}</h3>
 
-        <p className="mt-4 max-w-xl text-gray-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quam
-          lacus, posuere id eros vel, suscipit imperdiet lorem. Quisque
-          volutpat, lorem in faucibus malesuada, purus est ullamcorper neque.
+        <p className="mt-4 max-w-4xl text-gray-400">
+          {personalDetails.bio}
         </p>
 
         <Link href="/about">

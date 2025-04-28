@@ -1,10 +1,10 @@
 export const personalDetails = {
-    name: "John Doe",
+    name: "Arvin Saguisa",
     role: "QA Engineer / Web Developer",
-    email: "johndoe@example.com",
-    phone: "+1 234 567 890",
-    location: "New York, USA",
-    bio: "Lorem ipsum dolor sit amet is a well-known placeholder text used in the printing and typesetting industry. It has been the standard dummy text since the 1500s when an unknown printer scrambled a galley of type to make a type specimen book.",
+    email: "arvinsaguisa@gmail.com",
+    phone: "+639615614768",
+    location: "Cebu, Philippines",
+    bio: "Results-driven Software Test Engineer with a strong background in quality assurance and a passion for delivering reliable software solutions. Committed to continuous learning and improvement, I thrive in collaborative environments where precision and efficiency drive success.",
     linkedin: "https://linkedin.com/in/johndoe",
     github: "https://github.com/johndoe",
     portfolio: "https://johndoe.dev",
@@ -13,14 +13,14 @@ export const personalDetails = {
 
 export const workDetails = [
   {
-    position: "Software Quality Analyst",
+    position: "Software Test Engineer",
     company: "KODA Kollectiv Inc.",
     location: "Mandaue",
     type: "Regular",
     duration: "Aug 2023 - Present",
   },
   {
-    position: "Software QA / Admin Assistant Intern",
+    position: "Intern",
     company: "KODA Kollectiv Inc.",
     location: "Mandaue",
     type: "Internship",
