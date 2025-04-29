@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Skills from "./components/SkillsSnapshot";
 import About from "./components/AboutMe";
+// import Services from "./components/Services";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -71,6 +72,7 @@ export default function Home() {
 
      {/* Other Sections in Form of a Component */}
       <About />
+      {/* <Services /> */}
       <Skills />
 
       
