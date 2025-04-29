@@ -11,7 +11,7 @@ export default function AboutPage() {
           <h1 className="text-xl text-black md:text-2xl xl:text-3xl xl:leading-snug font-bold">
             About Me
           </h1>
-          <p className="text-content py-8 lg:max-w-3xl">{personalDetails.bio}</p>
+          <p className="text-content py-8 lg:max-w-4xl">{personalDetails.bio}</p>
         </section>
     
         <br />
@@ -42,13 +42,12 @@ export default function AboutPage() {
             Education
           </h1>
           {React.Children.toArray(
-            educationDetails.map(({ course, school, location, duration, website }) => (
+            educationDetails.map(({ course, school, location, duration }) => (
               <Studies
                 course={course}
                 school={school}
                 location={location}
                 duration={duration}
-                website={website}
               />
             ))
           )}
