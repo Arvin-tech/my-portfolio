@@ -73,7 +73,7 @@ export const projectDetails = [
     },
     {
       title: "Fountain Crossing",
-      image: "/images/projects/fountaincrossing.png",
+      image: "/images/projects/fc.png",
       description: "Fountain Crossing is an International Healthcare Staffing agency.",
       techstack: ["Lorem", "Lorem", "Lorem"],
       previewLink: "https://www.fountaincrossing.com/",

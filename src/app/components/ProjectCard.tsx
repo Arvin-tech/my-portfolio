@@ -23,7 +23,7 @@ export default function ProjectCard({
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
       <div className="relative h-48 md:h-56 w-full">
-        <Image src={image} alt={title} fill className="object-cover" />
+        <Image src={image} alt={title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="object-cover" />
       </div>
       <div className="p-6 flex flex-col h-full grid grid-rows-[auto_1fr_auto]">
         {/* <span className="text-sm text-purple-600">{date}</span> */}
