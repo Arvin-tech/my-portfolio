@@ -1,7 +1,7 @@
 export const projectDetails = [
     {
       title: "CrediSync Capstone Project",
-      image: "/images/projects/credisync.png", // Store images in public/images
+      image: "/images/projects/credisync.png",
       description: "A machine learning-based loan eligibility assessment platform.",
       techstack: ["Flask", "Python", "MySQL", "Postman"],
       previewLink: "https://credysync.example.com",
