@@ -71,5 +71,14 @@ export const projectDetails = [
       githubLink: "https://github.com/yourusername/qatest",
       date: "2025",
     },
+    {
+      title: "Fountain Crossing",
+      image: "/images/projects/fountaincrossing.png",
+      description: "Fountain Crossing is an International Healthcare Staffing agency.",
+      techstack: ["Lorem", "Lorem", "Lorem"],
+      previewLink: "https://www.fountaincrossing.com/",
+      githubLink: "https://github.com/yourusername/qatest",
+      date: "2025",
+    },
   ];
   

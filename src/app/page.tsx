@@ -7,11 +7,10 @@ import About from "./components/AboutMe";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/css/pagination"; 
 
 const images = [
   "/images/home_slider/image3.jpg",
-  "/images/home_slider/image1.jpg",
   "/images/home_slider/image2.jpg",
   "/images/home_slider/image4.jpg",
 ];
@@ -59,12 +58,12 @@ export default function Home() {
           <div className="mt-6 flex gap-4 justify-center md:justify-start">
             <a href="/arvin-saguisa-cv.pdf" target="_blank" rel="noopener noreferrer">
               <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-                Hire Me
+                Resume
               </button>
             </a>
-            <button className="border border-blue-400 text-blue-400 px-6 py-2 rounded-lg hover:bg-blue-400 hover:text-white">
+            {/* <button className="border border-blue-400 text-blue-400 px-6 py-2 rounded-lg hover:bg-blue-400 hover:text-white">
               Let&apos;s Talk
-            </button>
+            </button> */}
           </div>          
 
         </div>
