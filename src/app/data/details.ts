@@ -4,7 +4,7 @@ export const personalDetails = {
     email: "arvinsaguisa@gmail.com",
     phone: "+639615614768",
     location: "Cebu, Philippines",
-    bio: "Results-driven Software Test Engineer with a strong background in quality assurance and a passion for delivering reliable software solutions. Committed to continuous learning and improvement, I thrive in collaborative environments where precision and efficiency drive success.",
+    bio: "Results-driven Software Test Engineer with a strong background in quality assurance and passion for delivering reliable software solutions. Committed to continuous learning and improvement, I thrive in collaborative environments where precision and efficiency drive success.",
     linkedin: "https://linkedin.com/in/johndoe",
     github: "https://github.com/johndoe",
     portfolio: "https://johndoe.dev",
