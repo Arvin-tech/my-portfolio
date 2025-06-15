@@ -7,8 +7,7 @@ export default function AboutPage() {
     return (
       <main className="container mx-auto max-w-7xl pt-10 pb-20 overflow-x-hidden px-4">
         <section>
-          <br /><br />
-          <h1 className="text-xl text-black md:text-2xl xl:text-3xl xl:leading-snug font-bold">
+          <h1 className="text-xl text-black md:text-2xl xl:text-3xl xl:leading-snug font-bold mt-10">
             About Me
           </h1>
           <p className="text-content py-8 lg:max-w-4xl">{personalDetails.bio}</p>
