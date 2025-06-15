@@ -49,7 +49,7 @@ export default function BlogPage() {
   return (
     <div className="container mx-auto px-6 py-12 relative">
       <div className="mb-12">
-        <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold text-gray-800 mb-4 mt-5">
+        <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold text-gray-800 mb-4 mt-10">
           My Blog
         </h1>
         <p className="text-gray-600 text-lg max-w-5xl">
