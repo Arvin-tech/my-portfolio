@@ -23,7 +23,6 @@ const posts = [
       "/images/work/koda-somac.jpg",
       "/images/outdoors/kanirag-group.jpg",
       "/images/work/koda-xmas.jpg",
-      "/images/work/catmon-group.jpg"
     ]
   },
   {
