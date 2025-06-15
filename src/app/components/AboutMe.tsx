@@ -22,9 +22,14 @@ const About = () => {
 
         <h3 className="mt-6 text-xl font-bold">{personalDetails.name}</h3>
 
-        <p className="mt-4 max-w-4xl text-gray-400">
+        {/* <p className="mt-4 max-w-4xl text-gray-400">
+          {personalDetails.bio}
+        </p> */}
+
+        <p className="mt-6 max-w-4xl text-gray-400 text-sm md:text-base px-6 md:px-0 leading-relaxed text-center">
           {personalDetails.bio}
         </p>
+
 
         <Link href="/about">
           <button className="mt-6 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
